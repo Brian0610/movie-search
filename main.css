@@ -1,0 +1,153 @@
+@font-face{
+	font-family: Ant-Bold-webfont; 
+	src: url(fonts/Ant-Bold-webfont.woff);
+}
+
+body {
+	background-color: red; 	
+}
+
+#sidebar {
+	position: fixed; 
+	z-index: 1; 
+	border-right: 1px solid gray; 
+	width: 14em; 
+	height: 100vh; 
+	background: -webkit-linear-gradient(#FFF, #FDFDFD); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFF, #FDFDFD); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFF, #FDFDFD); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFF, #E5E5E5); /* Standard syntax */
+    box-shadow: 5px 0px 25px #B20000; 	
+}
+
+#logo {
+	display: block;  
+	margin: 20px auto; 
+}
+
+h1 {
+	font-family: Ant-Bold-webfont; 
+	font-size: 25px; 
+	text-align: center;  
+}
+
+span.red {	
+	color: red; 
+}
+
+#search-form {
+	position: relative; 
+	top: 2em;
+	border-top: 1px dashed gray; 
+	border-bottom: 1px dashed gray; 
+	padding: 30px 0px; 
+	width: 85%; 
+	margin: auto;  
+}
+
+#search-entry {
+	font-size: 20px; 
+	border: 1px solid gray; 
+	padding: 5px; 
+	width: 80%; 
+	display: block; 
+	margin: auto; 
+}
+
+#search-entry:focus {
+	border-radius: 5px; 
+	outline: none; 
+}
+
+#submit {
+	border: none; 
+	background: red; 
+	color: white; 
+	height: 30px; 
+	width: 80%; 
+	display: block; 
+	margin: 20px auto; 
+	font-size: 15px; 
+	text-transform: uppercase; 
+}
+
+#search-results {
+	
+	height: 360px; 	 
+	position: relative; 
+	top: 25vh; 
+	left: 14.5em; 
+	
+}
+
+div.result {
+	width: 550px;
+	height: 350px;  
+	background-color: #FDFDFD;  
+	display: inline-block;
+	vertical-align: top; 
+	margin: 0 50px;	 
+	padding-bottom: 30px; 
+	box-shadow: -10px 20px 25px #B20000;
+	background: -webkit-linear-gradient(#FFF, #FDFDFD); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFF, #FDFDFD); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFF, #FDFDFD); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFF, #E5E5E5); /* Standard syntax */
+}
+
+h2.result {
+	font-family: Ant-Bold-webfont;
+	font-size: 25px; 
+	margin: 44px 20px 2px 35px; 
+	border-bottom: 1px dashed gray; 
+}
+
+h3.result {
+	font-size: 15px;
+	margin: 0px 0px 0px 35px;  
+	color: #777; 
+}
+
+section.result {
+	margin-top: 20px; 
+}
+img.result {
+	float: left; 
+	margin: 0px 20px 0px 35px; 
+}
+
+h4.result {
+	float: left; 
+	font-size: 16px;
+	font-style: italic; 
+	font-family: Georgia; 
+	line-height: 24px; 
+	width: 22em;
+	margin-bottom: 15px;  		
+	color: black; 
+}
+
+p.plot {
+	float: left; 
+	font-size: 16px; 
+	font-family: Georgia; 
+	line-height: 24px; 
+	width: 22em; 	
+	margin: 0px 0px 20px 0px; 	
+	color: #777; 
+}
+
+img.result {
+	width: 20%; 
+}
+
+button.delete {
+	float: right;
+	margin: 10px; 
+}
+
+button.delete:hover {
+	background-color: red; 
+	color: white; 
+; 
+}
